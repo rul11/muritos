@@ -1,0 +1,141 @@
+{
+
+	"duracionTotal":60,
+	"contenidos":
+	[
+
+		{
+			"duracion":10,
+			"contenidos":
+			[
+				{
+					"tipo":"A",
+					"url":"anuncio1.html"
+								
+
+				},
+				{
+					"tipo":"B",
+					"url":"anuncio5.html"
+
+				},
+				{
+					"tipo":"C",
+					"url":"anuncio3.html"
+
+				}
+			]
+		},
+		{
+			"duracion":11,
+			"contenidos":
+			[
+				{
+					"tipo":"D",
+					"url":"video.html"
+
+				}
+
+			]
+
+		},
+		{
+			"duracion":10,
+			"contenidos":
+			[
+				{
+					"tipo":"A",
+					"url":"anuncio4.html"
+								
+
+				},
+				{
+					"tipo":"B",
+					"url":"anuncio5.html"
+
+				},
+				{
+					"tipo":"C",
+					"url":"anuncio6.html"
+
+				}
+			]
+		},
+		{
+			"duracion":10,
+			"contenidos":
+			[
+				{
+					"tipo":"A",
+					"url":"anuncio7.html"
+								
+
+				},
+				{
+					"tipo":"B",
+					"url":"anuncio5.html"
+
+				},
+				{
+					"tipo":"C",
+					"url":"anuncio9.html"
+
+				}
+			]
+		},
+		{
+			"duracion":17,
+			"contenidos":
+			[
+				{
+					"tipo":"D",
+					"url":"video2.html"
+
+				}
+
+			]
+
+		},
+		{
+			"duracion":10,
+			"contenidos":
+			[
+				{
+					"tipo":"A",
+					"url":"anuncio7.html"
+								
+
+				},
+				{
+					"tipo":"B",
+					"url":"anuncio5.html"
+
+				},
+				{
+					"tipo":"C",
+					"url":"anuncio10.html"
+
+				}
+			]
+		},
+		{
+			"duracion":11,
+			"contenidos":
+			[
+				{
+					"tipo":"D",
+					"url":"video3.html"
+
+				}
+
+			]
+
+		}
+
+
+
+	]
+
+
+
+}

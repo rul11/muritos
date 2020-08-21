@@ -1,0 +1,194 @@
+*{
+
+	margin:0;
+
+}
+
+html,body
+{
+    height:100%;
+    width:100%;
+}
+body
+{
+    display:table;
+}
+
+p{
+
+    font-size: 50px;
+}
+
+#layoutAnuncios{
+
+    height:100%;
+    width:100%;
+    display: table; 
+
+}
+
+#row1 {
+
+    float: left;
+    width: 100%;
+    height: 62.5%;
+    display: table-row;
+   
+}
+#row2 {
+
+    float: left;
+    width: 100%;
+    height: 37.5%;
+    display: table-row;
+   
+}
+
+
+#layoutA{
+
+	background-color:#08233d;
+	padding: 0;
+    float: left;
+    display: table-cell;
+    width: 65.2%;
+    height: 100%;
+
+
+}
+
+#layoutB{
+
+	background-color:#fff;
+	padding: 0;
+    float: left;
+    display: table-cell;
+    width: 34.7%;
+    height: 100%;
+
+	
+}
+
+#layoutC{
+
+	background-color:#e4e9eb;	
+	padding: 0;
+    float: left;
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+	
+	
+}
+#marquee {
+
+	
+	height: 100%;
+    width: 100%;
+	color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 50px;
+    vertical-align: middle;
+ 
+   
+}
+#marquee p {
+
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 5s linear infinite;
+
+}
+@keyframes marquee {
+
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+video{
+
+  height:100%;
+  width:100%;
+
+}
+
+
+@font-face {
+
+  font-family: "Roboto";
+  src: url("Roboto-Medium.ttf");
+}
+
+p{
+
+    font-family: "Roboto";
+    color: #fff;
+
+}
+
+.contenedor {
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.contenedor p{
+
+    vertical-align: middle;
+    height: 33%;
+
+   
+}
+.contenedor .titulo{
+
+    font-size: 75px
+}
+
+.contenedorB {
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    vertical-align: end;
+    text-align: center;
+    justify-content: center;
+
+ 
+   
+}
+
+
+
+
+
+.contenedorB  p {
+
+ height:16%;
+ background-color: #193661;
+
+    
+}
+
+
+.qrcode{
+
+  padding: 0;
+  margin:0;
+  height:84%;
+  width:90%;
+
+
+}
+.logo{
+
+    height:100%; 
+    width:100%;
+}
+
+
+
