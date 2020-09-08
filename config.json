@@ -84,7 +84,7 @@
 			]
 		},
 		{
-			"duracion":17,
+			"duracion":15,
 			"contenidos":
 			[
 				{
@@ -95,43 +95,7 @@
 
 			]
 
-		},
-		{
-			"duracion":10,
-			"contenidos":
-			[
-				{
-					"tipo":"A",
-					"url":"anuncio7.html"
-								
-
-				},
-				{
-					"tipo":"B",
-					"url":"anuncio5.html"
-
-				},
-				{
-					"tipo":"C",
-					"url":"anuncio10.html"
-
-				}
-			]
-		},
-		{
-			"duracion":11,
-			"contenidos":
-			[
-				{
-					"tipo":"D",
-					"url":"video3.html"
-
-				}
-
-			]
-
 		}
-
 
 
 	]

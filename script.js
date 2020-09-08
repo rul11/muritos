@@ -1,6 +1,6 @@
 export function changeText(type){
 
-	alert('ALGO');
+	
 
 		var layoutA = document.getElementById('layoutA');
 

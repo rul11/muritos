@@ -1,6 +1,7 @@
 *{
 
 	margin:0;
+  
 
 }
 
@@ -47,12 +48,13 @@ p{
 
 #layoutA{
 
-	background-color:#08233d;
+	background-color:#00b1b8;
 	padding: 0;
     float: left;
     display: table-cell;
     width: 65.2%;
     height: 100%;
+
 
 
 }
@@ -66,7 +68,6 @@ p{
     width: 34.7%;
     height: 100%;
 
-	
 }
 
 #layoutC{
@@ -116,13 +117,20 @@ video{
 
 @font-face {
 
-  font-family: "Roboto";
-  src: url("Roboto-Medium.ttf");
+  font-family: "Nunito";
+  src: url("NunitoSans-Regular.ttf");
+}
+
+@font-face{
+
+  font-family:"NunitoBold";
+  src: url('NunitoSans-ExtraBold.ttf');
+
 }
 
 p{
 
-    font-family: "Roboto";
+    font-family: "Nunito";
     color: #fff;
 
 }
@@ -140,13 +148,35 @@ p{
 .contenedor p{
 
     vertical-align: middle;
-    height: 33%;
+    margin-bottom: 80px;
 
    
 }
 .contenedor .titulo{
 
+    font-family: "NunitoBold";
     font-size: 75px
+}
+
+.contenedor .cuerpo{
+
+    font-size: 60px;
+    font-family: "NunitoBold";
+    color: #000;
+
+}
+
+.contenedor .pie{
+
+    font-family: "NunitoBold";
+    font-size: 60px
+}
+
+img.a {
+
+  vertical-align: baseline;
+  height: 38px;
+  width: 38px;
 }
 
 .contenedorB {
@@ -157,21 +187,24 @@ p{
     vertical-align: end;
     text-align: center;
     justify-content: center;
-
- 
    
 }
-
-
-
-
 
 .contenedorB  p {
 
  height:16%;
- background-color: #193661;
+ background-color: #f15a29;
 
     
+}
+
+#qr {
+
+  background: url('qrcode.png') no-repeat center;
+  background-size: cover;
+  height:100%;
+  width:100%;
+
 }
 
 
@@ -179,8 +212,7 @@ p{
 
   padding: 0;
   margin:0;
-  height:84%;
-  width:90%;
+ 
 
 
 }
@@ -189,6 +221,195 @@ p{
     height:100%; 
     width:100%;
 }
+
+.contenedor1 {
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    background-color: #000;
+   
+}
+
+.contenedor1 div{
+
+    flex: 1;
+
+
+}
+
+.contenedor1 .titulo1 p{
+
+    font-family: "NunitoBold";
+    font-size: 85px;
+    color:#00b1b8;
+
+
+}
+.contenedor1 .titulo1{
+
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+.contenedor1 .cuerpo1 p{
+
+    font-size: 55px;
+    font-family: "NunitoBold";
+    color: #fff;
+    text-align:center;
+  
+
+}
+
+.contenedor1 .pie1 p{
+
+    font-family: "NunitoBold";
+    font-size: 60px;
+    color:#00b1b8;
+   
+
+}
+.contenedor1 .pie1{
+
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.logo_muritos{
+
+    height:60px; 
+    width:60px;
+}
+
+
+
+.contenedor4 {
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    background-color: #000;
+   
+}
+
+.contenedor4 div{
+
+    flex: 1;
+
+
+}
+
+.contenedor4 .titulo4 p{
+
+    font-family: "NunitoBold";
+    font-size: 85px;
+    color:#00b1b8;
+
+
+}
+.contenedor4 .titulo4{
+
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+.contenedor4 .cuerpo4 p{
+
+    font-size: 55px;
+    font-family: "NunitoBold";
+    color: #fff;
+    text-align:center;
+  
+
+}
+
+.contenedor4 .pie4 p{
+
+    font-family: "NunitoBold";
+    font-size: 60px;
+    color:#f15a29;
+   
+
+}
+.contenedor4 .pie4{
+
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/******/
+
+
+.contenedor7 {
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    background-color: #000;
+   
+}
+
+.contenedor7 div{
+
+    flex: 1;
+
+
+}
+
+.contenedor7 .titulo7 p{
+
+    font-family: "NunitoBold";
+    font-size: 85px;
+    color:#00b1b8;
+
+
+}
+.contenedor7 .titulo7{
+
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+.contenedor7 .cuerpo7 p{
+
+    font-size: 55px;
+    font-family: "NunitoBold";
+    color: #fff;
+    text-align:center;
+  
+
+}
+
+.contenedor7 .pie7 p{
+
+    font-family: "NunitoBold";
+    font-size: 60px;
+    color:#8dc63f;
+   
+
+}
+.contenedor7 .pie7{
+
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+
 
 
 
